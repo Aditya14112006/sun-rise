@@ -53,7 +53,7 @@ async function getBackgroundImg(){
     // write code slice the datetime
     hour = datetime.slice(11,13);
 
-    if(hour>=0 && hour<18 ){
+    if(hour>=0 && hour<17 ){
         bg = "sunrise.png";
     }
     else{
